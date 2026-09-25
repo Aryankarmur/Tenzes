@@ -1,12 +1,65 @@
-# React + Vite
+# Tenzies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Tenzies is a React-based dice game where the goal is to get all dice showing the same number. Players can hold individual dice and roll the remaining dice until they achieve the required combination.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Roll multiple dice
+* Hold individual dice
+* Track dice values
+* Detect winning conditions
+* Roll counter
+* Game reset functionality
+* Interactive game interface
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* JavaScript
+* Vite
+* CSS
+
+## What I Practiced
+
+* React state management
+* Handling user interactions
+* Array manipulation
+* Conditional rendering
+* Game-state logic
+* Creating reusable React components
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Aryankarmur/Tenzes.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd Tenzes
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available on the local development server provided by Vite.
+
+## Project Purpose
+
+This project was created to practice React state management and build a complete interactive game using component-based development.
+
+## Repository
+
+[GitHub Repository](https://github.com/Aryankarmur/Tenzes)
